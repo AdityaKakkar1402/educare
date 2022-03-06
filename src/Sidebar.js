@@ -38,7 +38,7 @@ function Sidebar () {
         <div className="sidebar">
            
             <div className="sidebar_top">
-                <h3>Amitesh Kumar</h3>
+                <h3>Educare Chatting Area</h3>
                 <ExpandMoreIcon/>
             </div>
 

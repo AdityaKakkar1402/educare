@@ -6,7 +6,8 @@ import SignalCellularAltIcon from '@mui/icons-material/SignalCellularAlt';
 import SidebarChannel from './SidebarChannel';
 import InfoIcon from '@mui/icons-material/Info';
 import CallIcon from '@mui/icons-material/Call';
-import Avatar from '@material-ui/core/avatar'
+// import Avatar from '@material-ui/core/avatar'
+import { Avatar } from '@mui/material';
 import { selectUser } from './features/userSlice';
 import { useSelector } from 'react-redux';
 import  db ,{  auth } from './firebase';

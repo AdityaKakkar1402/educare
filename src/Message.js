@@ -1,6 +1,7 @@
 import React from 'react'
 import './Message.css'
-import Avatar from '@material-ui/core/avatar'
+// import Avatar from '@material-ui/core/avatar'
+import { Avatar } from '@mui/material';
 
 
 const Message = ({timestamp,user,message}) => {

@@ -1,0 +1,36 @@
+.grid {
+    /* width: 606px; */
+    /* height: 606px; */
+    width: 610px;
+    height: 610px;
+    border: 10px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoretext {
+    border: 1px solid black;
+    text-align: center;
+    background-color: blueviolet
+}
+
+#time-left {
+    text-align: center;
+}
+
+#score {
+    text-align: center;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+
+.mole {
+    background-image: url("mole.jpg");
+    background-size: cover;
+}

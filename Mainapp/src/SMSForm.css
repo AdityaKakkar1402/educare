@@ -1,0 +1,40 @@
+ .co {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 200px;
+ }
+ 
+ .sms-form {
+     text-align: left;
+     padding: 1em;
+     border: 1px solid black;
+     width: 30%;
+     text-align: center;
+     box-shadow: 5px 5px 15px;
+ }
+ 
+ .sms-form label {
+     display: block;
+ }
+ 
+ .sms-form input,
+ .sms-form textarea {
+     font-size: 1em;
+     width: 50%;
+     box-sizing: border-box;
+ }
+ 
+ .sms-form div {
+     margin-bottom: 0.5em;
+     text-align: center;
+ }
+ 
+ .sms-form button {
+     font-size: 1em;
+     width: 30%;
+ }
+ 
+ .sms-form.error {
+     outline: 2px solid #f00;
+ }
